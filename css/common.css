@@ -1,0 +1,12 @@
+/* 清除浮动 */
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+/* 外层居中的容器：根据自己的网站定义 */
+.container {
+    width: 1090px;
+    margin: 0 auto;
+}
